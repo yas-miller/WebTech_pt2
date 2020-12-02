@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd">
+	<tlibversion>1.0</tlibversion>
+	<shortname>tables</shortname>
+	<info>Output tables.</info>
+	<uri>/WEB-INF/tables</uri>
+	
+	<tag>
+		<name>tenant_table</name>
+		<tagclass>taglib.UserTable</tagclass>
+		<info>Tenant table.</info>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>admin_change_tenant</name>
+		<tagclass>taglib.AdminChangeUser</tagclass>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>petition_table</name>
+		<tagclass>taglib.PetitionTable</tagclass>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>work_table</name>
+		<tagclass>taglib.WorkTable</tagclass>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>employee_table</name>
+		<tagclass>taglib.EmployeeTable</tagclass>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>admin_change_employee</name>
+		<tagclass>taglib.AdminChangeEmployee</tagclass>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>brigade_table</name>
+		<tagclass>taglib.BrigadeTable</tagclass>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>add_user</name>
+		<tagclass>taglib.AdminAddNewUser</tagclass>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>add_employee</name>
+		<tagclass>taglib.AdminAddNewEmployee</tagclass>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>delete_user</name>
+		<tagclass>taglib.AdminDeleteUser</tagclass>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>delete_employee</name>
+		<tagclass>taglib.AdminDeleteEmployee</tagclass>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>admin_delete_petition</name>
+		<tagclass>taglib.AdminDeletePetition</tagclass>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>user_delete_petition</name>
+		<tagclass>taglib.UserDeletePetition</tagclass>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>user_change_semself</name>
+		<tag-class>taglib.UserChangeSemself</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>all_user_petition</name>
+		<tag-class>taglib.UsersPetitionTable</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>id</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>user_change_petition</name>
+		<tag-class>taglib.UserChangePetition</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+</taglib> 
